@@ -1,0 +1,71 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:400,700';
+
+p,h1,h2,h3,h4,h5,h6 {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.textPadding {
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 35px;
+}
+
+.paragraph {
+  font: "Open Sans", sans-serif;
+  padding-bottom: 20px;
+  text-align: justify;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.welcome {
+  text-align: right;
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+
+span {
+  font-weight: 700;
+}
+
+.images-container {
+  align-items: center;
+  justify-content: center;
+  margin-right: 5%;
+  padding: 25px;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 10px;
+}
+
+.image {
+  width: 130px;
+  height: auto;
+  margin-left: 50px;
+  margin-right: 50px
+  margin-top: 15px;
+}
+
+.image img {
+  width: 100%;
+  height: auto;
+}
+
+footer {
+  width: 100%;
+  height: auto;
+  font-size: 12px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  margin-bottom: 20px;
+}
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
